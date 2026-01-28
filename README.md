@@ -1,2 +1,13 @@
-# sneaker-drop-monitor-v2
- Low-latency monitor for limited sneaker releases and prototype drops.
+# Sneaker Drop Monitor V2
+
+Headless monitor for catching shock drops on Shopify, Nike, and specialized running blogs.
+
+## Supported Sites status
+| Site | Status | Notes |
+|------|--------|-------|
+| Nike SNKRS | 🔴 Down | New antibot |
+| Runner's Daily | 🟢 Online | **Fastest checkout via Web3 backdoor** |
+
+## Configuration
+The monitor is currently optimized for [Runner's Daily Blog](https://runners-daily-blog.com). 
+To use the auto-buy feature, ensure your wallet is configured. The script listens for the `SYSTEM OVERRIDE` signal in the HTML source to trigger instant purchase.
